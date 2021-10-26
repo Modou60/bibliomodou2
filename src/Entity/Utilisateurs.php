@@ -38,7 +38,7 @@ class Utilisateurs
     private $dateNaissance;
 
     /**
-     * @ORM\Column(type="string", length=55)
+     * @ORM\Column(type="string", length=255)
      */
     private $login;
 
@@ -60,7 +60,7 @@ class Utilisateurs
     /**
      * @ORM\Column(type="array")
      */
-    private $role ["Locataire", "Propriétaire", "Gestionnaire", "Administrateur"];
+    private $role = ["Locataire", "Propriétaire", "Gestionnaire", "Administrateur"];
 
     public function getId(): ?int
     {
@@ -163,12 +163,12 @@ class Utilisateurs
         return $this;
     }
 
-    public function getRole(): ?string
+    public function getRole(): ?array
     {
         return $this->role;
     }
 
-    public function setRole(string $role): self
+    public function setRole(array $role): self
     {
         $this->role = $role;
 

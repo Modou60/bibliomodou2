@@ -1,4 +1,4 @@
-    <?php
+<?php
 
 namespace App\Entity;
 
@@ -20,7 +20,7 @@ class Location
     /**
      * @ORM\Column(type="date")
      */
-    private $Date;
+    private $date;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -28,7 +28,7 @@ class Location
     private $titre;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="integer")
      */
     private $categorie;
 
@@ -38,7 +38,7 @@ class Location
     private $image = [];
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @ORM\Column(type="text", nullable=true)
      */
     private $description;
 
@@ -58,7 +58,7 @@ class Location
     private $accessibility;
 
     /**
-     * @ORM\Column(type="boolean")
+     * @ORM\Column(type="boolean", nullable=true)
      */
     private $alaune;
 
@@ -69,12 +69,12 @@ class Location
 
     public function getDate(): ?\DateTimeInterface
     {
-        return $this->Date;
+        return $this->date;
     }
 
-    public function setDate(\DateTimeInterface $Date): self
+    public function setDate(\DateTimeInterface $date): self
     {
-        $this->Date = $Date;
+        $this->date = $date;
 
         return $this;
     }
@@ -91,12 +91,12 @@ class Location
         return $this;
     }
 
-    public function getCategorie(): ?string
+    public function getCategorie(): ?int
     {
         return $this->categorie;
     }
 
-    public function setCategorie(string $categorie): self
+    public function setCategorie(int $categorie): self
     {
         $this->categorie = $categorie;
 
@@ -127,12 +127,12 @@ class Location
         return $this;
     }
 
-    public function getValeur(): ?string
+    public function getValeur(): ?int
     {
         return $this->valeur;
     }
 
-    public function setValeur(string $valeur): self
+    public function setValeur(int $valeur): self
     {
         $this->valeur = $valeur;
 
@@ -168,7 +168,7 @@ class Location
         return $this->alaune;
     }
 
-    public function setAlaune(bool $alaune): self
+    public function setAlaune(?bool $alaune): self
     {
         $this->alaune = $alaune;
 
