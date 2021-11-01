@@ -1,0 +1,32 @@
+@startuml use_case_gestion_emprunt
+cas d'utilisation gérer emprunt et restitution
+
+left to right
+package acteurs
+{
+acteurs usager
+acteurs employebiblio
+acteurs benevole
+
+[systeme]
+}
+
+rectangle gereremprunt
+{
+    (consulter liste documents) as (consulterliste)
+    (chercher documents aux rayons ou au guichet) as (chercherdoc)
+    (emprunter document pour domicile) as (emprunterdoc)
+    (fournir sa carte de lecteur et document) as (fournir)
+    (référencer l'emprunt par le numéro du lecteur et par la côte du document) as (referenceremprunt)
+    (générer fiche de prêt) as (genererfiche)
+    (accorder prêt) as (accorder)
+    (régler sa cotisation) as (reglercotisation)
+(dater prêt) as (daterpret)
+(envoyer lettre de relance) as (envoyerlettre)
+}
+
+
+' Relations
+usager -> consulterliste: pour connaître la disponibilité des documents voulus
+employebiblio -> consulterliste: pour connaître le nombre de documents empruntés, perdus ou vollés
+@enduml

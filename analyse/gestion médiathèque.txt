@@ -1,0 +1,17 @@
+Gestion médiathèque
+
+trouver un support:
+Chaque document repérer par sa côte
+livre / CD-DVD également par son titre et son / ses auteurs
+un journal et un microfilm par leurs titres et leurs dates
+
+inscription des nouveaux usagers et achat de documents sont réalisés par le personnel de la bibliothè-que
+Prêt de documents aux usagers effectués par le personnel et par une équipe de bénévoles
+lenregistrement d'un nouveau document génère un numéro (sa côte) unique et non récupérable
+ce numéro s'incrémente automatiquement
+c'est la même procédure pour l'enregistrement d'un nouveaux lecteurs
+cependant, on peut modifier les caractéristiques des fiches lecteur (adresse ...)
+mettre hors service un document volé ou perdu
+on ne pourra jamais retirer ou supprimer une fiche lecteur ni une fiche document
+par contre on peut gérer le déplacement des documents ou de leur non utilisation
+les employés de la bibliothèque peuvent consulter les états des lecteurs (nombre d'emprunts, lesquels ...)

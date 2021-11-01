@@ -1,0 +1,26 @@
+Emprunt :
+livres --> 
+livres spéciaux et journaux  --> consultable sur place
+micro-film --> visualisable sur place
+CD-DVD --> prêter avec quotion
+
+usager consulter liste documents en ligne par ordre alphabétique selon le type de document ou par auteur pour tous les documents, sa cote ou encore par son titre
+usager chercher document (dans les rayons pour livres et journaux), au guichet (pour les CD-DVD et microfilms)
+CD-DVD remettre en échange d'une caution et présentation de sa carte de lecteur
+caution rendu après retour du CD-DVD
+microfilm consulter sur place
+microfilm remis si un écran de lecture est libre
+usager désir enmprunter se présenter 
+usagers : possibilité de consulter liste documents et de savoir si ceux-ci sont disponibles, ni prêter ni perdu
+employé de la bibliothèque 
+usager fournit sa carte de lecteur et le document en question
+employé référence l'emprunt par le numéro de lecteur et par la cote du document
+mise en circulation d'un CD-DVD ou de microfilm génère fiche de prêt dans le système informatique
+de même l'emprèunt à domicile d'un livre ou d'un CD-DVD
+prêt de documents effectué par le personnel de la bibliothèque et par une équipe de bénévoles.
+Ces derniers n'auront ce droit accordé que pour une période limitée
+usager 
+prêt accordé uniquement quand lecteur a réglé sa cotisation et pas avoir 5 emprunts simultané
+prêt daté
+lettre de relance envoyé au lecteur après 4 semaines
+relances effectuées à la demande du bibliothécaire
